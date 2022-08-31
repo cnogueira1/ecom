@@ -11,14 +11,10 @@ export const Line = styled.div<{open: boolean}>`
   width: 100%;
 
   border: 0.1rem solid var(--color-gray);
-  border-bottom: none;
 
   border-radius: 0.4rem;
 
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-
-  padding: 0.4rem 0.4rem 0 0.4rem;
+  padding: 0.2rem;
 
   position: absolute;
   top: 0;
@@ -34,17 +30,21 @@ export const Line = styled.div<{open: boolean}>`
 export const Contend = styled.div<{open: boolean}>`
   width: 100%;
 
-  height: ${props => props.open ? '8rem' : '2.4rem'};
+  height: ${props => props.open ? '10rem': '2rem'};
+  opacity: ${props => props.open ? 1: 0};
+
   border-radius: 0.4rem;
-  border: 0.1rem solid var(--color-gray);
 
-  padding: 0.2rem 0.5rem;
+  padding: 2.2rem 0.5rem 0.3rem 0.5rem;
 
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 
-  transition: height 0.5s;
+  transition: height 0.8s, opacity 0.5s;
 
-  padding-top: ${props => props.open ? '2rem' : '0.2rem'};
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
 `
 
 export const Icon = styled.div<{open: boolean}>`

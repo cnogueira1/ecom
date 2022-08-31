@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { AccordionFilter, Filters } from '../components'
+import { AccordionFilter, Filters, ProductCard } from '../components'
 
 
 const Home: NextPage = () => {
@@ -11,6 +11,8 @@ const Home: NextPage = () => {
         <AccordionFilter />
         <AccordionFilter />
       </Filters>
+
+      <ProductCard />
     </div>
   )
 }

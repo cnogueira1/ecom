@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: flex-start;
 
-  height: 2rem;
+  height: 1.1rem;
 
   position: relative;
   margin: 0.1rem;
@@ -19,7 +19,7 @@ export const Icon = styled.div<{visible: boolean}>`
 
   color: var(--color-black);
 
-  font-size: 1.9rem;
+  font-size: 1.1rem;
 
   opacity: ${props => props.visible ? 1 : 0};
 
@@ -31,10 +31,10 @@ export const Icon = styled.div<{visible: boolean}>`
 `
 
 export const Label = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: var(--font-regular);
   letter-spacing: 0.1rem;
-  margin-left: 2.2rem;
+  margin-left: 1.3rem;
 
   color: var(--color-black);
 `

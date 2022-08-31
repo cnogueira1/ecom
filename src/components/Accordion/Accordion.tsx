@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Container, Contend, Icon, Label, Line } from './styles'
 import { IoIosArrowDown } from 'react-icons/io'
+import { CheckBox } from '../Filters'
 
 export const AccordionFilter = () => {
 
@@ -30,7 +31,7 @@ export const AccordionFilter = () => {
       </Line>
 
       <Contend open={open}>
-        conteudo
+        <CheckBox id="teste" label="texto" handleChange={() => {}} />
       </Contend>
     </Container>
   )
