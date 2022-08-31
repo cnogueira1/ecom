@@ -1,15 +1,16 @@
 import type { NextPage } from 'next'
-import { ProductCard } from '../components/CardProduct/CardProduct'
-import { Cart } from '../components/Cart/Cart'
-import { InputSearch } from '../components/InputSearch/InputSearch'
+import { AccordionFilter, Filters } from '../components'
+
 
 const Home: NextPage = () => {
 
   return (
     <div>
-      <Cart />
-      <InputSearch />
-
+      <Filters>
+        <AccordionFilter />
+        <AccordionFilter />
+        <AccordionFilter />
+      </Filters>
     </div>
   )
 }
