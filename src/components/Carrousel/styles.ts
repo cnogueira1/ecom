@@ -23,6 +23,10 @@ export const ImagePrimary = styled.div`
   transition: opacity 0.5s;
   border-radius: 1rem;
 
+  span {
+    width: 100%!important;
+  }
+
   img {
     width: 100%!important;
     height: 16rem!important;
