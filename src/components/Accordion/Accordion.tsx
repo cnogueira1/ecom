@@ -32,6 +32,8 @@ export const AccordionFilter = () => {
 
       <Contend open={open}>
         <CheckBox id="teste" label="texto" handleChange={() => {}} />
+        <CheckBox id="teste" label="texto" handleChange={() => {}} />
+        <CheckBox id="teste" label="texto" handleChange={() => {}} />
       </Contend>
     </Container>
   )

@@ -1,20 +1,15 @@
 import type { NextPage } from 'next'
-import { AccordionFilter, Filters, ProductCard } from '../components'
+import { NavBar } from '../components'
+import { Home } from '../modules'
 
-
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
 
   return (
     <div>
-      <Filters>
-        <AccordionFilter />
-        <AccordionFilter />
-        <AccordionFilter />
-      </Filters>
-
-      <ProductCard />
+      <NavBar />
+      <Home />
     </div>
   )
 }
 
-export default Home
+export default HomePage

@@ -11,6 +11,7 @@ git clone https://github.com/cnogueira1/ecom.git
 After cloning, install dependencies :
 
 ```
+cd ecom
 yarn
 ```
 

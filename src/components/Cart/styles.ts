@@ -39,7 +39,8 @@ export const Container = styled.div`
 export const Modal = styled.div<{open: boolean}>`
   width: 20rem;
   position: absolute;
-  top: 2.5rem;
+  top: 3rem;
+  right: 0;
   height: ${props => props.open ? '29rem' : '0rem'};
   padding:  ${props => props.open ? '1rem' : '0rem'};;
   opacity: ${props => props.open ? '1' : '0'};;

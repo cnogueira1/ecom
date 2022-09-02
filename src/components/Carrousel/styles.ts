@@ -9,21 +9,23 @@ export const Container = styled.div`
   justify-content: center;
 
   border-radius: 1rem;
+  overflow: hidden;
 `
 
 export const ImagePrimary = styled.div`
   width: 100%;
-  height: 100%;
+  height: 16rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
   transition: opacity 0.5s;
+  border-radius: 1rem;
 
   img {
-    width: 20rem!important;
-    height: 20rem!important;
+    width: 100%!important;
+    height: 16rem!important;
   }
 `
 

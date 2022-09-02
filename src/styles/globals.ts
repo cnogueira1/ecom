@@ -48,13 +48,15 @@ export const stylesGlobal = css`
   html {
     width: 100vw;
     min-height: 100vh;
+    max-width: 100vw;
   }
 
   body, html {
     font: 400 18px NunitoRegular, 'Montserrat', Roboto, sans-serif;
-    overflow-x: hidden ;
     background-color: #1C093D;
     width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
 
     ::-webkit-scrollbar {
       width: 2px;
